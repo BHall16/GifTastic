@@ -1,0 +1,39 @@
+body {
+    background-image: url("../images/nba.jpg")
+}
+
+.container {
+    color:white;
+}
+
+#add {
+    font-size:20px;
+    color:yellow;
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.text-center {
+    color: white;
+    font-size:40px;
+}
+
+p {
+    text-align:center;
+    font-size:20px;
+}
+
+#addForm {
+    float:right;
+}
+
+#sub-btn {
+    background-color:yellow;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+}

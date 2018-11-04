@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+    <div class="container" style="background: transparent;">
+        <h1 class="text-center">GifTastic! NBA Edition</h1>
+        <p style="color:white">Click on a button to see 10 gifs of that player!</p>
+        <br>
+        <div id="buttons"> </div>
+        <br>
+        <br>
+        <div class="container" id="addPlayer" style="background: transparent;">
+            <form id="addForm">
+                <label id="add" for="newAdd">Add a new player!  >>> </label>
+                <input type="text" id="newAdd">
+                <button onclick="submitButtonClicked()" type="button" id="sub-btn" class="btn btn-danger">Submit</button>
+            </form>
+            
+            <br>
+            <br>
+            <div id="players"> </div>
+        </div>
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
